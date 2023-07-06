@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    background-color: white;
+    /* overflow: hidden; */
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    width: 120px;
+    height: 27px;
+  }
+
+  .navbar a {
+    float: left;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar a.active {
+    background-color: #adadad;
+    color: #333;
+  }
+
+  .section {
+    background-image: url("/images/top-section_4360x1500.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 15%;
+    height: 80%;
+  }
+
+  .section h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .section button {
+    background-color: rgb(57, 135, 218);
+    color: white;
+    padding: 10px 7%;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .card-img {
+    height: 252px;
+    width: 392px;
+  }
+
+  .card-img2 {
+    height: 120px;
+    width: 300px;
+  }
+
+  .card-img3 {
+    height: 90px;
+    width: 90px;
+  }
+
+  .card-img4 {
+    height: 141px;
+    width: 323px;
+  }
+
+  .card-img5 {
+    height: 100px;
+    width: 230px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .card-text2 {
+    font-size: 15px;
+  }
+
+  .sub-head {
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .bg-div {
+    font-size: 24px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+  }
+
+  .button2 {
+    border-width: 2px;
+    border-color: lightskyblue;
+    border-radius: 10px;
+    height: 27px;
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: lightskyblue;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+
+  .bg-image {
+    background-image: url("/images/collection-startup_460x184.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 184px;
+    position: relative;
+    margin: 20px;
+  }
+
+  .bg-image2 {
+    background-image: url("/images/collection-ml_922x368.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 184px;
+    position: relative;
+    margin: 20px;
+  }
+
+  .bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .partners{
+    background-color: #ddd; 
+    height: 400px; 
+    width: 100%;
+  }
+
+  .user-r2{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+  }
+
+  .user-r1{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .text-input {
+    height: 36px;
+    padding-left: 10px;
+    width: 389px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .button3 {
+    height: 40px;
+    width: 89px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+  }
+
+  .tag-link{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .supported{
+    background-color: #ddd; height: 300px; width: 100%
+  }
+
+  .supported-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .features{
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    display: flex;
+  }
+
+  .videos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .supported-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 160px;
+        margin-right: 160px;
+        flex-direction: column;
+      }
+      .supported{
+        background-color: #ddd; height: 600px; width: 100%
+      }
+
+      .button3 {
+        height: 40px;
+        width: 70px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        cursor: pointer;
+      }
+      .text-input {
+        height: 36px;
+        padding-left: 10px;
+        width: 339px;
+        border: 1px solid #ccc;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+      .user-r2{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+      }
+      .user-r1{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .partners{
+        background-color: #ddd; 
+        height: 1000px; 
+        width: 100%;
+      }
+
+      .features{
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 30px;
+      }
+
+      .videos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: column;
+      }
+
+      .navbar {
+        background-color: white;
+        height: 45px;
+      }
+
+      .navbar a {
+        color: gray;
+        text-align: center;
+        padding: 13px 10px;
+        font-size: 9px !important;
+      }
+
+      .logo{
+        width:100px;
+        height: 22px;
+      }
+  }
